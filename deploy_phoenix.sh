@@ -11,6 +11,7 @@ if [ -d "$APP_DIR" ]; then
 	echo "Directory already exists"
 	exit 1 
 fi
+#Added test comment line from macbook
 #added test comment for branch dev-setup
 mkdir -p "$APP_DIR"
 for folder in config data logs 
